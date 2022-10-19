@@ -1,0 +1,400 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+}
+
+
+
+/*Navbar*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.navbar img{
+    width: 85px;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+
+
+
+/*Navbar-left*/
+
+.navbar .menu-left{
+    color: black;
+    display: flex;
+    list-style: none;
+}
+.navbar .menu-left li{
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+.navbar .menu-left a{
+    display:flex;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*Navbar-rigth*/
+
+.navbar .menu-rigth {
+    display:flex;
+    list-style: none;
+    float: right;
+}
+.navbar .menu-rigth li{
+    margin-left: 20px;
+    margin-right: 3px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar .menu-rigth a{
+    text-decoration: none;
+}
+.navbar .menu-rigth .darkmode{
+    margin-left: 310px;
+    font-size: 25px;
+
+}
+.navbar .menu-rigth .translate{
+    font-size: 25px;
+}
+.navbar .menu-rigth .search{
+    font-size: 25px;
+
+}
+.navbar .menu-rigth .pro{
+    color: white;
+    background:#282a35;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+.navbar .menu-rigth .certified{
+    color: black;
+    background:#FFC0C7;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+.navbar .menu-rigth .free-website{
+    color: black;
+    background:#FFF4A3;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+.navbar .menu-rigth .log-in{
+    color: white;
+    background:#04AA6D;
+    padding: 15px 50px;
+    border-radius: 25px;
+}
+
+
+
+/* Learn to CODE*/
+
+.learn {
+    background: #282A35;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+.learn h1 {
+    color: #ffffff;
+    padding-top: 150px;
+    font-size: 90px;
+}
+.learn p {
+    color: #ffc0c7;
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.learn a{
+    color: #ffffff;
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+
+/* Wave */
+
+/*
+.wave {
+    
+}
+*/
+
+
+
+/* HTML */
+
+.html {
+    display: flex;
+    background: #D9EEE1;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+.html h1, .html p, .html ul{
+    margin-left: 250px;
+}
+.html h1{
+    color: black;
+    font-size: 120px;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+.html p{
+    color: black;
+}
+.html .html-left ul li{
+    padding-top: 50px;
+}
+.html .html-left ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.html .html-left .html-1{
+    color: white;
+    background:#04aa6d;
+    padding: 15px 70px;
+    border-radius: 25px;
+    margin-top: 80px;
+}
+.html .html-left .html-2{
+    color: black;
+    background:#fff4a3;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+.html .html-left .html-3{
+    color: white;
+    background:#282a35;
+    padding: 15px 120px;
+    border-radius: 25px;
+}
+.html .html-left .html-4{
+    color: black;
+    background:#FFC0C7;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+
+
+
+/* CSS */
+
+.css {
+    display: flex;
+    background: #fff4a3;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+.css h1, .css p, .css ul{
+    margin-left: 250px;
+}
+.css h1{
+    color: black;
+    font-size: 120px;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+.css p{
+    color: black;
+}
+.css .css-left ul li{
+    padding-top: 50px;
+}
+.css .css-left ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.css .css-left .css-1{
+    color: white;
+    background:#04aa6d;
+    padding: 15px 70px;
+    border-radius: 25px;
+
+}
+.css .css-left .css-2{
+    color: white;
+    background:#282a35;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+.css .css-left .css-3{
+    color: black;
+    background:#FFC0C7;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+
+
+
+/* JavaScript */
+
+.java {
+    display: flex;
+    background: #282a35;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+.java h1, .java p, .java ul{
+    margin-left: 250px;
+}
+.java h1{
+    color: white;
+    font-size: 90px;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+.java p{
+    color: white;
+}
+.java .java-left ul li{
+    padding-top: 50px;
+}
+.java .java-left ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.java .java-left .java-1{
+    color: white;
+    background:#04aa6d;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+.java .java-left .java-2{
+    color: black;
+    background:#ffffff;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+.java .java-left .java-3{
+    color: black;
+    background:#ffc0c7;;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+
+
+
+/* Python */
+
+.python {
+    display: flex;
+    background: #f3ecea;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+.python h1, .python p, .python ul{
+    margin-left: 250px;
+}
+.python h1{
+    color: black;
+    font-size: 120px;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+.python p{
+    color: black;
+}
+.python .python-left ul li{
+    padding-top: 50px;
+}
+.python .python-left ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.python .python-left .python-1{
+    color: white;
+    background:#04aa6d;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+.python .python-left .python-2{
+    color: white;
+    background:#282a35;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+.python .python-left .python-3{
+    color: black;
+    background:#ffc0c7;;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+
+
+
+/* SQL */
+
+.sql {
+    display: flex;
+    background: #96d4d4;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+.sql h1, .sql p, .sql ul{
+    margin-left: 250px;
+}
+.sql h1{
+    color: black;
+    font-size: 120px;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+.sql p{
+    color: black;
+}
+.sql .sql-left ul li{
+    padding-top: 50px;
+}
+.sql .sql-left ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.sql .sql-left .sql-1{
+    color: white;
+    background:#04aa6d;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+.sql .sql-left .sql-2{
+    color: white;
+    background:#282a35;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+.sql .sql-left .sql-3{
+    color: black;
+    background:#ffc0c7;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+
+
+
+/* Languages */
+
+.lang {
+    display: flex;
+}
